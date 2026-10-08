@@ -1,0 +1,13 @@
+{
+  "model_name": "logistic_regression",
+  "cv_roc_auc_mean": 0.5411,
+  "cv_f1_mean": 0.6136,
+  "test_metrics": {
+    "accuracy": 0.4098,
+    "precision": 0.4706,
+    "recall": 0.4706,
+    "f1": 0.4706,
+    "roc_auc": 0.4357
+  },
+  "timestamp": "2026-09-08T18:34:37.886627+00:00"
+}
