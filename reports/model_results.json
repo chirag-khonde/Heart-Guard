@@ -1,0 +1,87 @@
+{
+  "best_model": {
+    "model_name": "logistic_regression",
+    "cv_roc_auc_mean": 0.5411,
+    "cv_f1_mean": 0.6136
+  },
+  "cv_results": {
+    "logistic_regression": {
+      "accuracy_mean": 0.5289,
+      "accuracy_std": 0.0835,
+      "precision_mean": 0.5644,
+      "precision_std": 0.064,
+      "recall_mean": 0.6754,
+      "recall_std": 0.1196,
+      "f1_mean": 0.6136,
+      "f1_std": 0.0852,
+      "roc_auc_mean": 0.5411,
+      "roc_auc_std": 0.1018
+    },
+    "random_forest": {
+      "accuracy_mean": 0.5037,
+      "accuracy_std": 0.0557,
+      "precision_mean": 0.5469,
+      "precision_std": 0.0405,
+      "recall_mean": 0.6463,
+      "recall_std": 0.0915,
+      "f1_mean": 0.5917,
+      "f1_std": 0.0623,
+      "roc_auc_mean": 0.4742,
+      "roc_auc_std": 0.0601
+    },
+    "xgboost": {
+      "accuracy_mean": 0.4919,
+      "accuracy_std": 0.068,
+      "precision_mean": 0.5462,
+      "precision_std": 0.0645,
+      "recall_mean": 0.5508,
+      "recall_std": 0.075,
+      "f1_mean": 0.5483,
+      "f1_std": 0.0687,
+      "roc_auc_mean": 0.4891,
+      "roc_auc_std": 0.1013
+    },
+    "neural_network": {
+      "accuracy_mean": 0.5414,
+      "accuracy_std": 0.0681,
+      "precision_mean": 0.5832,
+      "precision_std": 0.0699,
+      "recall_mean": 0.683,
+      "recall_std": 0.0971,
+      "f1_mean": 0.6246,
+      "f1_std": 0.0598,
+      "roc_auc_mean": 0.5311,
+      "roc_auc_std": 0.1253
+    }
+  },
+  "test_results": {
+    "logistic_regression": {
+      "accuracy": 0.4098,
+      "precision": 0.4706,
+      "recall": 0.4706,
+      "f1": 0.4706,
+      "roc_auc": 0.4357
+    },
+    "random_forest": {
+      "accuracy": 0.5738,
+      "precision": 0.587,
+      "recall": 0.7941,
+      "f1": 0.675,
+      "roc_auc": 0.5381
+    },
+    "xgboost": {
+      "accuracy": 0.623,
+      "precision": 0.641,
+      "recall": 0.7353,
+      "f1": 0.6849,
+      "roc_auc": 0.5915
+    },
+    "neural_network": {
+      "accuracy": 0.5574,
+      "precision": 0.6,
+      "recall": 0.6176,
+      "f1": 0.6087,
+      "roc_auc": 0.4978
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "train_test_split_before_preprocessing": true,
+  "imputer_fit_on_train_only": true,
+  "scaler_fit_on_train_only": true,
+  "encoder_fit_on_train_only": true,
+  "target_excluded_from_features": true
+}
