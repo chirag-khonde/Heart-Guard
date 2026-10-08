@@ -1,0 +1,20 @@
+feature,mean_absolute_shap,clinical_label,rank
+fasting_blood_sugar_0,0.22642,Fasting Blood Sugar <= 120,1
+fasting_blood_sugar_1,0.225825,Fasting Blood Sugar > 120,2
+chest_pain_type_3,0.190363,Chest Pain Type 3,3
+chest_pain_type_1,0.152855,Chest Pain Type 1,4
+num_major_vessels,0.133931,Number of Major Vessels,5
+sex_0,0.102008,Sex (Female),6
+sex_1,0.101425,Sex (Male),7
+resting_ecg_1,0.096048,Resting ECG ST-T Abnormality,8
+exercise_angina_0,0.084631,Exercise Angina Absent,9
+exercise_angina_1,0.084035,Exercise Angina Present,10
+max_heart_rate,0.081868,Maximum Heart Rate,11
+cholesterol,0.046917,Cholesterol,12
+resting_ecg_0,0.044884,Resting ECG Normal,13
+resting_bp,0.044617,Resting Blood Pressure,14
+chest_pain_type_0,0.042848,Chest Pain Type 0,15
+chest_pain_type_2,0.024568,Chest Pain Type 2,16
+age,0.017029,Age,17
+st_depression,0.005991,ST Depression,18
+resting_ecg_2,0.0,Resting ECG Left Ventricular Hypertrophy,19
